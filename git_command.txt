@@ -1,0 +1,26 @@
+  1 git init
+   2 dir
+   3 git init
+   4 git status
+   5 git add hello.py
+   6 git status
+   7 git rm --cached hello.py
+   8 git status
+   9 git add hello.py
+  10 git status
+  11 git rm --cached hello.ppy
+  12 git rm --cached hello.py
+  13 git status
+  14 git add hello.py
+  15 git status
+  16 git commit -m "added hello file"
+  17 git config --global user.name "Arpit_Singh"
+  18 git config --global user.email "arpitsingh969612@gmail.com"
+  19 git commit -m " added hello file"
+  20 git status
+  21 rm hello.py
+  22 ls
+  23 dir
+  24 git status
+  25 git restore hello.py
+  26 git stat
