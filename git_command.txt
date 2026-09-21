@@ -24,3 +24,11 @@
   24 git status
   25 git restore hello.py
   26 git stat
+    Id CommandLine
+  -- -----------
+   1 git remote add origin 
+   2 git remote -v
+   3 git remote set-url origin
+   4 git remote -v
+   5 git push origin master
+   6 git status
