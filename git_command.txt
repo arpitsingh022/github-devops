@@ -1,34 +1,50 @@
-  1 git init
-   2 dir
-   3 git init
-   4 git status
-   5 git add hello.py
-   6 git status
-   7 git rm --cached hello.py
-   8 git status
-   9 git add hello.py
-  10 git status
-  11 git rm --cached hello.ppy
-  12 git rm --cached hello.py
-  13 git status
-  14 git add hello.py
-  15 git status
-  16 git commit -m "added hello file"
-  17 git config --global user.name "Arpit_Singh"
-  18 git config --global user.email "arpitsingh969612@gmail.com"
-  19 git commit -m " added hello file"
-  20 git status
-  21 rm hello.py
-  22 ls
-  23 dir
-  24 git status
-  25 git restore hello.py
-  26 git stat
-    Id CommandLine
-  -- -----------
-   1 git remote add origin 
-   2 git remote -v
-   3 git remote set-url origin
-   4 git remote -v
-   5 git push origin master
-   6 git status
+1  git --version
+2  git config --global user.name "Your Name"
+3  git config --global user.email "your@email.com"
+4  git config --list
+5  git init
+6  git status
+7  git add filename
+8  git add .
+9  git commit -m "initial commit"
+10 git log
+11 git log --oneline
+12 git clone https://github.com/USERNAME/REPOSITORY
+13 git remote -v
+14 git remote add origin https://github.com/USERNAME/REPOSITORY
+15 git remote remove origin
+16 git remote set-url origin https://github.com/USERNAME/REPOSITORY
+17 git branch
+18 git branch new-branch
+19 git checkout new-branch
+20 git switch new-branch
+21 git switch -c new-branch
+22 git checkout master
+23 git merge new-branch
+24 git branch -d new-branch
+25 git push origin master
+26 git push -u origin master
+27 git pull origin master
+28 git fetch origin
+29 git diff
+30 git diff --staged
+31 git show
+32 git status
+33 git restore filename
+34 git restore --staged filename
+35 git reset HEAD filename
+36 git reset --soft HEAD~1
+37 git reset --mixed HEAD~1
+38 git revert HEAD
+39 git stash
+40 git stash list
+41 git stash pop
+42 git stash apply
+43 git stash drop
+44 git tag
+45 git tag v1.0
+46 git push origin v1.0
+47 git remote show origin
+48 git branch -a
+49 git log --graph --oneline --all
+50 git help
